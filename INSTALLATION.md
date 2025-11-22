@@ -7,30 +7,31 @@ Complete step-by-step installation guide for the plugin.
 Before installing, ensure you have:
 
 1. **CS2 Dedicated Server** (Windows or Linux)
+   - Download: https://developer.valvesoftware.com/wiki/SteamCMD
    - Installed and running
    - Admin/FTP access to server files
 
-2. **Metamod:Source** (v2.0 or higher)
+3. **Metamod:Source** (v2.0 or higher)
    - Download: https://www.sourcemm.net/downloads.php?branch=master
    - Required for CounterStrikeSharp&PracticePlugin
 
-3. **CounterStrikeSharp** (v273 or higher)
+4. **CounterStrikeSharp** (v1.0.347 or higher)
    - Download: https://github.com/roflmuffin/CounterStrikeSharp/releases
    - Framework for CS2 plugins  
 
 ---
 
-## ✔️ Step 1: Install Metamod:Source
+## ✔️ Step 1: Install Metamod
 
 ### Windows Server:
-1. Download Metamod:Source for Windows
+1. Download Metamod for Windows
 2. Extract the `addons` folder to your CS2 server directory:
 ```
    C:\GameServers\CS2\game\csgo\
 ```
 
 ### Linux Server:
-1. Download Metamod:Source for Linux
+1. Download Metamod for Linux
 2. Extract the `addons` folder to your CS2 server directory:
 ```
    /home/steam/cs2/game/csgo/
@@ -66,7 +67,7 @@ In game\csgo update gameinfo.gi to include `Game    csgo/addons/metamod` under "
 
 ### Automatic Installation (Recommended):
 
-1. **Download** `PracticeMod-v1.1.0.zip`
+1. **Download** `PracticeMod-vX.X.X.zip`
 2. **Extract** the archive
 3. **Copy** the `addons` folder to your server:
 ```
@@ -244,7 +245,7 @@ exec practice.cfg
 - **Commands not working**: Practice mod must be enabled first
 - **Bots won't spawn**: Check server bot settings aren't conflicting
 - **Grenades not refilling**: Ensure `sv_infinite_ammo 2` is set
-- **Ensure you have added `Game    csgo/addons/metamod` in gameinfo.gi
+- **Ensure you have added `Game    csgo/addons/metamod` in gameinfo.gi**
 
 ### Getting Help:
 
@@ -267,5 +268,6 @@ Before running, verify you have:
 - ✅ `!practice` command works in-game
 
 ---
+
 
 **Installation complete! Enjoy your practice server! ♻️🔫**
